@@ -29,7 +29,7 @@ research-internship/
 │   └── appendix/
 │       └── Data/
 │           └── burgers_shock.mat      <- reference solution (required to run)
-├── pinn_burgers_annotated.ipynb       <- the notebook, with math explanations
+├── PINN-Implementation.ipynb      <- the notebook with implementations
 ├── requirements.txt
 └── README.md
 ```
@@ -106,7 +106,7 @@ or, if you prefer Jupyter Lab:
 jupyter lab
 ```
 
-This opens a browser window. From there, open `pinn_burgers_annotated.ipynb`.
+This opens a browser window. From there, open `PINN-Implementation.ipynb`.
 
 ### 7. Run the notebook
 
