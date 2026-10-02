@@ -184,7 +184,7 @@ training the *same* model rather than start a new one.
 
 ## Known limitations / things to double-check
 
-- The `.mat` file path in Section 1 is hardcoded to one specific machine's
+- The `.mat` file path in Section 1 is hardcoded to one specific environment
   folder structure — update it per step 5 above before running elsewhere.
 - Training uses `device = "mps"` if available (Apple Silicon GPU
   acceleration), falling back to CPU otherwise. If you hit unexpected errors
